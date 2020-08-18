@@ -104,17 +104,23 @@ html(lang='en')
             li
               p Iterate
               p
-                | You can't build a house roof first, start with the foundation and
-                | slowly add to it making sure that everything is done well. Bugs
-                | can cause the whole thing to collapse having more features is
-                | less important then having good well made ones. Something that
-                | is half done is better than something the is done half-ass.
+                | You can't build a house roof first, start with the foundation
+                | and slowly add to it making sure that everything is done well.
+                | Bugs can cause the whole thing to collapse having more features
+                | is less important then having good well made ones. Something
+                | that is half done is better than something the is done half-ass.
             li
               p Review
               p
                 | Before moving on to building the next part of your app take a
-                | second to look at what you got. Are the any Bugs? Do they need to be
-                | fixed? Is there anything that I can do better? Is it so easy to use that even a caveman can use it? Not every bug needs to be fixed right now, due to the time constraint create a reminder, and come back to it later. Focus on only fixing bugs that would regularly impact the user ie: error messages that don't go away, graphics that are conditional showing when there condition is false, or any app breaking bugs.
+                | second to look at what you got. Are the any Bugs? Do they need
+                | to be fixed? Is there anything that I can do better? Is it so
+                | easy to use that even a caveman can use it? Not every bug needs
+                | to be fixed right now, due to the time constraint create a
+                | reminder, and come back to it later. Focus on only fixing bugs
+                | that would regularly impact the user ie: error messages that
+                | don't go away, graphics that are conditional showing when there
+                | condition is false, or any app breaking bugs.
         li
           p How do I submit?
           p Navigate to provided submission URL
@@ -146,18 +152,100 @@ html(lang='en')
     section#templates
       h2 Templates
       ul
-        li Questions
-        li LinkedIn
-        li Sharing The Event(get community involved in advertisement)
-        li Project Feedback /Issues Template
+        li
+          h3 How to ask a Question...
+          h4
+            | In plain non-technical english, describe the problem you have
+            | encountered.
+          p The button is the wrong color.
+          h4
+            | In plain non-technical english, describe the expected behavior.
+          p The button is red.
+          h4
+            | In plain non-technical english, describe the actual behavior.
+          p The button is blue.
+          h4
+            | Post any code you think might be relevant. Use fenced backticks ```
+            | with a language specified.
+          ul(style='list-style: none;')
+            p ```javascript
+            li 1 // src/scripts/button.js
+            li 2 console.log("I am inside button.js");
+            p ```
+          ul(style='list-style: none;')
+            p ```css
+            li 1 /* src/styles/style.css */
+            li 2 * { color: red; }
+            li 3 div.button { color: blue; }
+            p ```
+          ul(style='list-style: none;')
+            p ```html
+            li 1 <!-- src/index.html -->
+            li 2 <div class="button">
+            li
+              span(style='margin-right: 2rem;') 3
+              |  Button
+            li 4 </div>
+            p ```
+          h4
+            | If you see an error message, post it here (including the full error
+            | log). If you don’t, what unexpected behavior are you seeing?
+          ul(style='list-style: none;')
+            li Uncaught Error: Sample error
+            li(style='text-indent: 2rem;') at someMethod (repl:1:27)
+            li(style='text-indent: 2rem;') at someMethod (repl:20:22)
+            li(style='text-indent: 2rem;') at someMethod (repl:30:20)
+            li(style='text-indent: 2rem;') at someMethod (repl:100:7)
+          h4 What is your best guess as to the source of the problem?
+          p I don't know, but I think the CSS is off. Maybe it's in the JS.
+          h4 What things have you already tried to solve the problem?
+          p I've tried playing with the CSS and with the JS.
+        li
+          h3 How Do I Show my work
+          p We have some ready to go LinkedIn Templates that you can use
+          a(href='https://blog.mintbean.io/mintbean-hackathon-guide-linkedin-templates/')
+            | Show and Tell
+        li
+          h3 Creating and Issue or Providing Meaningful Feedback
+          div
+            h4 Creating a issue for your self
+            p(style='font-weight: bolder;') ### Expected Behavior
+            p(style='font-weight: bold;') Describe the desired behavior
+            p I wanted the button to be red 
+            p(style='font-weight: bolder;') ### Actual Behavior
+            p(style='font-weight: bold;') Describe actual behavior
+            p The button is blue
+            p(style='font-weight: bolder;') ### How to Resolve
+            p(style='font-weight: bold;') Describe How to Fix
+            p use more specific CSS selectors to make sure style is applied
+          div
+            h4 Creating a issue for someone else
+            p(style='font-weight: bolder;') ### Describe the User Flow
+            p(style='font-weight: bold;') How Did you interact with the site
+            p
+              | I was on my profile page and I wanted to navigate to a friends
+              | page, but there was no indication on how to do that.
+            p(style='font-weight: bolder;') ### Problematic Behavior
+            p(style='font-weight: bold;') Describe What Happened
+            p
+              | I eventually figured out that by clicking on her photo took me to
+              | her page, but there wasn't anything to show that her phot was
+              | clickable
+            p(style='font-weight: bolder;')
+              | ### Ideas for Improvement (optional Must be actionable and kind)
+            p(style='font-weight: bold;') Describe ways the person could fix it
+            p
+              | Changing the cursor or maybe providing some sort of tooltip would
+              | be helpful
     section#tips
       h2 Mind Mints (Tips)
       ul
         // pulled from code mentors and organizers
-        li DEPLOY EARLY.
+        li(style='font-weight: bolder; text-decoration: underline;') DEPLOY EARLY.
         li Take time to plan.
         li Ask questions.
-        li Spend no more than 30 min on a issue before asking the community
+        li
+          | Spend no more than 30 min on a issue before asking the community
     section#resources
       h2 Misc. Resources
       ul

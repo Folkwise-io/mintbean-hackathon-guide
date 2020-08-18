@@ -6,14 +6,22 @@ html(lang='en')
     section#table-contents
       h2(style='text-decoration: underline;') Table of Contents
       ul
-        li Code Of Conduct
-        li CLI
-        li Scoring
-        li FAQ
-        li Templates
-        li Mind Mints (Tips)
-        li Misc. Resources
+        li
+          a(href='#CodeOfConduct') Code Of Conduct
+        li
+          a(href='#CLI') CLI
+        li
+          a(href='#Scoring') Scoring
+        li
+          a(href='#FAQ') FAQ
+        li
+          a(href='#Templates') Templates
+        li
+          a(href='#Tips') Mind Mints (Tips)
+        li
+          a(href='#Resources') Misc. Resources
     section#conduct
+      a(name='CodeOfConduct')
       h2 Our Mission
       p
         | Mintbean is an online community of software developers interested in
@@ -58,13 +66,34 @@ html(lang='en')
         | common and not discouraged. So we ask that you only use code that you
         | can explain on a high level(basic gist).
     section#cli
+      a(name='CLI')
       h2 CLI
       p npm install -g mintbean-cli
       a(href='https://github.com/clairefro/mintbean-cli/blob/master/README.md') CLI Docs
     section#scoring
+      a(name='Scoring')
       h2 Scoring
-      p Guide on scoring project
+      h3 Catagories
+      ul
+        li
+          | Functionality
+          ul
+            li Bugs
+            li Features
+        li
+          | Design
+          ul
+            li UX
+            li UI
+            li Creativity
+        li
+          | Theme/Problem
+          ul
+            li App Solves Developers Problem
+            li The App Fits With In Theme
+            li Difficulty
     section#faq
+      a(name='FAQ')
       h2 FAQ
       ul
         li
@@ -108,7 +137,7 @@ html(lang='en')
                 | and slowly add to it making sure that everything is done well.
                 | Bugs can cause the whole thing to collapse having more features
                 | is less important then having good well made ones. Something
-                | that is half done is better than something the is done half-ass.
+                | that is half done is better than something that is done half-ass.
             li
               p Review
               p
@@ -150,6 +179,7 @@ html(lang='en')
             | A: Reach out to a code mentor or event organizer (Navi, Monarch, or
             | Jennifer)
     section#templates
+      a(name='Templates')
       h2 Templates
       ul
         li
@@ -238,6 +268,7 @@ html(lang='en')
               | Changing the cursor or maybe providing some sort of tooltip would
               | be helpful
     section#tips
+      a(name='Tips')
       h2 Mind Mints (Tips)
       ul
         // pulled from code mentors and organizers
@@ -248,6 +279,7 @@ html(lang='en')
           | Spend no more than 30 min on a issue before asking the community
     section#resources
       h2 Misc. Resources
+      a(name='Resources')
       ul
         // Templates could go here
         li

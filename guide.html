@@ -1,372 +1,375 @@
 doctype html
-html(lang='en')
-  head
-  body
-    h1 Hitch Hackers Guide to The Mint-a-Verse!
-    section#table-contents
-      h2(style='text-decoration: underline;') Table of Contents
+h1 Hitch Hackers Guide to The Mint-a-Verse!
+section#table-contents
+  h2(style='text-decoration: underline;') Table of Contents
+  ul
+    li
+      a(href='#CodeOfConduct') Code Of Conduct
+    li
+      a(href='#FirstTime') First Time?
+    li
+      a(href='#CLI') CLI
+    li
+      a(href='#Scoring') Scoring
+    li
+      a(href='#FAQ') FAQ
+    li
+      a(href='#Question') Asking a Question
+    li
+      a(href='#ShowTell') Get Seen!
+    li
+      a(href='#Issue') Create an Issue
+    li
+      a(href='#Tips') Mind Mints (Tips)
+    li
+      a(href='#Resources') Misc. Resources
+section#conduct
+  a(name='CodeOfConduct')
+  h2 Code Of Conduct
+  p
+    | Be respectful. Harassment and abuse are never tolerated. If you are in a
+    | situation that makes you uncomfortable at a MintBean Event, if
+    | interacting with a MintBean representative or Code Mentor makes you
+    | uncomfortable, please report it to Jennifer Tang or another MintBean
+    | representative.
+  p
+    | MintBean stands for inclusivity. We believe that every single person has
+    | the right to hack in a safe and welcoming environment.
+  p
+    | Harassment includes but is not limited to offensive verbal or written
+    | comments related to gender, age, sexual orientation, disability,
+    | physical appearance, body size, race, religion, social class, economic
+    | status, veteran status, sexual images, deliberate intimidation,
+    | stalking, following, harassing photography or recording, sustained
+    | disruption of talks or other events, and unwelcome sexual attention. If
+    | what you&rsquo;re doing is making someone feel uncomfortable, that counts as
+    | harassment and is enough reason to stop doing it.
+  p
+    | Participants asked to stop any harassing behavior are expected to comply
+    | immediately.
+  p
+    | MintBean staff &amp; Mentors also subject to the anti-harassment policy. In
+    | particular, attendees should not use sexualized images, activities, or
+    | other material both in their hacks and during the event.
+  p
+    | If a participant engages in harassing behavior, MintBean may take any
+    | action it deems appropriate, including warning the offender or expulsion
+    | from the event. If you are being harassed, notice that someone else is
+    | being harassed, or have any other concerns, please contact Jennifer Tang
+    | or any other MintBean representative.
+  p
+    | Plagiarism in coding is a bit different; copy and pasting are very
+    | common and not discouraged. So we ask that you only use code that you
+    | can explain on a high level(basic gist). Any code that is essential to
+    | the core functionality that you didn&apos;t write or If you used someone
+    | elses code as the base of your project you must give them credit(linked
+    | in some way) npm packages are already credited in the package.json.
+  p
+    | If the base of your project was written by someone else you must make at least 2 meaningful changes to the project. MORE THAN STYLING.
+section#first-time
+  a(name='FirstTime')
+  h2 First Time? Lets Get Ready...
+  h3
+    | Join our
+    a(href='https://discord.com/invite/qMddjpj') Discord Channel
+  p
+    | All Announcements will be posted on our discord channel
+  h3 Say Hello!
+  p(style='font-style: italic;')
+    | Mintbean is an online community of software developers interested in
+    | perfecting their craft. Our virtual hackathons and online unconferences
+    | are a fast-paced and fun way to keep your skills sharp. They help you
+    | impress potential employers, learn new technologies, grow your skillset,
+    | build your portfolio, and create new and lasting connections.
+  h4 Welcome to the community,
+  p Head on over to the #introduce-yourself channel and say hello.
+  h3 Participate
+  p
+    | On our 
+    a(href='https://mintbean.io/') Website
+    |  a you can find a list
+    |         of upcoming hackathons and events, These can also be found on our
+    a(href='https://www.eventbrite.ca/o/mintbean-28752300031') Eventbrite.
+  h3 Have A question
+  p
+    | Each event will have its own channel where you can ask questions.
+    | Assigned code mentors monitor these channels, but make sure to tag them,
+    | so they are alerted when you ask a question. There is also a #question
+    | channel where you can put a query in front of the entire community. If
+    | you were looking for a specific person to respond, please remember to
+    | tag them. If you&apos;re asking a technical question, there is a handy guide
+    | below to help you provide all the information that might be needed to
+    | prepare the code mentors and the community to help you.
+  h3 Don&apos;t let your hard work go to waste!
+  p
+    span(style='\
+    font-weight: bold;\
+    text-transform: uppercase;\
+    font-size: 1.05rem;\
+    ') Make Sure You Submit!
+    |         Judging begins at 11:30AM EST on Wednesday for the Monday event and
+    |         Friday for the Wednesday Event. So make sure your project has been
+    |         submitted by that time. If we receive less than five submissions, no
+    |         winners will be announced, but the judges will provide feedback and
+    |         recommendations if you wish to further develop your application.
+  h3
+    | Most Importantly
+    span(style='\
+    font-weight: bold;\
+    text-transform: uppercase;\
+    font-size: 1.5rem;\
+    ') Have Fun!!!
+  p
+    | Don&apos;t let the struggle get you down! We have all been there. If you get
+    | stuck,
+    span(style='font-style: italic;')
+      | &quot;you&apos;re in luck, &apos;cause up your sleeves / You got a brand of magic,
+      | never fails / You&apos;ve got some power in your corner now / Some heavy
+      | ammunition in your camp / You got some punch, pizazz, yahoo and
+      | how?&quot;
+    |         - Genie(Robin Williams). See, all you gotta do is ask. The community is
+    |         here to back you up and help you through your snags. If you ever feel
+    |         like you don&apos;t belong, just look at the photo of what a developer looks
+    |         like.
+  h4 What a Developer Looks Like
+  // Mirror Application
+  | &lt; Mirror &gt;
+  p
+    | That right. You are a developer, and you definitely belong here we all
+    | started at different places and learn at different paces. Try to focus
+    | on your improvement and not on others. It may take time, but you can do
+    | anything you set your mind to.
+section#cli
+  a(name='CLI')
+  h2 CLI
+  p npm install -g mintbean-cli
+  a(href='https://github.com/clairefro/mintbean-cli/blob/master/README.md') CLI Docs
+section#scoring
+  a(name='Scoring')
+  h2 Scoring
+  h3 Catagories
+  ul
+    li
+      | Functionality
       ul
-        li
-          a(href='#CodeOfConduct') Code Of Conduct
-        li
-          a(href='#FirstTime') First Time?
-        li
-          a(href='#CLI') CLI
-        li
-          a(href='#Scoring') Scoring
-        li
-          a(href='#FAQ') FAQ
-        li
-          a(href='#Question') Asking a Question
-        li
-          a(href='#ShowTell') Get Seen!
-        li
-          a(href='#Issue') Create an Issue
-        li
-          a(href='#Tips') Mind Mints (Tips)
-        li
-          a(href='#Resources') Misc. Resources
-    section#conduct
-      a(name='CodeOfConduct')
-      h2 Code Of Conduct
-      p
-        | Be respectful. Harassment and abuse are never tolerated. If you are in a
-        | situation that makes you uncomfortable at a MintBean Event, if
-        | interacting with a MintBean representative or Code Mentor makes you
-        | uncomfortable, please report it to Jennifer Tang or another MintBean
-        | representative.
-      p
-        | MintBean stands for inclusivity. We believe that every single person has
-        | the right to hack in a safe and welcoming environment.
-      p
-        | Harassment includes but is not limited to offensive verbal or written
-        | comments related to gender, age, sexual orientation, disability,
-        | physical appearance, body size, race, religion, social class, economic
-        | status, veteran status, sexual images, deliberate intimidation,
-        | stalking, following, harassing photography or recording, sustained
-        | disruption of talks or other events, and unwelcome sexual attention. If
-        | what you’re doing is making someone feel uncomfortable, that counts as
-        | harassment and is enough reason to stop doing it.
-      p
-        | Participants asked to stop any harassing behavior are expected to comply
-        | immediately.
-      p
-        | MintBean staff & Mentors also subject to the anti-harassment policy. In
-        | particular, attendees should not use sexualized images, activities, or
-        | other material both in their hacks and during the event.
-      p
-        | If a participant engages in harassing behavior, MintBean may take any
-        | action it deems appropriate, including warning the offender or expulsion
-        | from the event. If you are being harassed, notice that someone else is
-        | being harassed, or have any other concerns, please contact Jennifer Tang
-        | or any other MintBean representative.
-      p
-        | Plagiarism in coding is a bit different; copy and pasting are very
-        | common and not discouraged. So we ask that you only use code that you
-        | can explain on a high level(basic gist).
-    section#first-time
-      a(name='FirstTime')
-      h2 First Time? Lets Get Ready...
-      h3
-        | Join our
-        a(href='https://discord.com/invite/qMddjpj') Discord Channel
-      p
-        | All Announcements will be posted on our discord channel
-      h3 Say Hello!
-      p(style='font-style: italic;')
-        | Mintbean is an online community of software developers interested in
-        | perfecting their craft. Our virtual hackathons and online unconferences
-        | are a fast-paced and fun way to keep your skills sharp. They help you
-        | impress potential employers, learn new technologies, grow your skillset,
-        | build your portfolio, and create new and lasting connections.
-      h4 Welcome to the community,
-      p Head on over to the #introduce-yourself channel and say hello.
-      h3 Participate
-      p
-        | On our 
-        a(href='https://mintbean.io/') Website
-        |  a you can find a list
-        |         of upcoming hackathons and events, These can also be found on our
-        a(href='https://www.eventbrite.ca/o/mintbean-28752300031') Eventbrite.
-      h3 Have A question
-      p
-        | Each event will have its own channel where you can ask questions.
-        | Assigned code mentors monitor these channels, but make sure to tag them,
-        | so they are alerted when you ask a question. There is also a #question
-        | channel where you can put a query in front of the entire community. If
-        | you were looking for a specific person to respond, please remember to
-        | tag them. If you're asking a technical question, there is a handy guide
-        | below to help you provide all the information that might be needed to
-        | prepare the code mentors and the community to help you.
-      h3 Don't let your hard work go to waste!
-      p
-        span(style='\
-        font-weight: bold;\
-        text-transform: uppercase;\
-        font-size: 1.05rem;\
-        ') Make Sure You Submit!
-        |         Judging begins at 11:30AM EST on Wednesday for the Monday event and
-        |         Friday for the Wednesday Event. So make sure your project has been
-        |         submitted by that time. If we receive less than five submissions, no
-        |         winners will be announced, but the judges will provide feedback and
-        |         recommendations if you wish to further develop your application.
-      h3
-        | Most Importantly
-        span(style='\
-        font-weight: bold;\
-        text-transform: uppercase;\
-        font-size: 1.5rem;\
-        ') Have Fun!!!
-      p
-        | Don't let the struggle get you down! We have all been there. If you get
-        | stuck,
-        span(style='font-style: italic;')
-          | "you're in luck, 'cause up your sleeves / You got a brand of magic,
-          | never fails / You've got some power in your corner now / Some heavy
-          | ammunition in your camp / You got some punch, pizazz, yahoo and
-          | how?"
-        |         - Genie(Robin Williams). See, all you gotta do is ask. The community is
-        |         here to back you up and help you through your snags. If you ever feel
-        |         like you don't belong, just look at the photo of what a developer looks
-        |         like.
-      h4 What a Developer Looks Like
-      // Mirror Application
-      | < Mirror >
-      p
-        | That right. You are a developer, and you definitely belong here we all
-        | started at different places and learn at different paces. Try to focus
-        | on your improvement and not on others. It may take time, but you can do
-        | anything you set your mind to.
-    section#cli
-      a(name='CLI')
-      h2 CLI
-      p npm install -g mintbean-cli
-      a(href='https://github.com/clairefro/mintbean-cli/blob/master/README.md') CLI Docs
-    section#scoring
-      a(name='Scoring')
-      h2 Scoring
-      h3 Catagories
+        li Bugs
+        li Features
+    li
+      | Design
       ul
+        li UX
+        li UI
+        li Creativity
+    li
+      | Theme/Problem
+      ul
+        li Constraints Followed
+        li Difficulty
+section#faq
+  a(name='FAQ')
+  h2 FAQ
+  ul
+    li
+      p How do I plan?
+      ul
+        // checklist of how to plan
         li
-          | Functionality
+          p Idea
+          p Ask your self these questions
           ul
-            li Bugs
-            li Features
-        li
-          | Design
-          ul
-            li UX
-            li UI
-            li Creativity
-        li
-          | Theme/Problem
-          ul
-            li Constraints Followed
-            li Difficulty
-    section#faq
-      a(name='FAQ')
-      h2 FAQ
-      ul
-        li
-          p How do I plan?
-          ul
-            // checklist of how to plan
-            li
-              p Idea
-              p Ask your self these questions
-              ul
-                li What is the prompt/theme?
-                li What problem do I want to solve?
-                li What already exists that I wish was better?
-                li Can I accomplish this in the given time? (Yes/No/Maybe)
-                li Can I build part of this in the given time? (MVP)
-              p
-                | If you can take your grand idea and create a lite version of it,
-                | that is fine. The end of the hackathon doesn't mean the end of
-                | the project, we may ask you to start with a blank slate, but you
-                | can always keep going.
-            li
-              p Minimum Viable Product(MVP)
-              p
-                | The bare bones of your idea, nothing fancy the most basic
-                | features your app needs to have. Think of building a house; this
-                | is your foundation, no walls, doors, rooms, or windows. It is
-                | the first thing you have to do before you can do anything else,
-                | and make sure it is done well a weak foundation makes for a poor
-                | house.
-            li
-              p Wire Frame
-              p
-                | If it looks like it was drawn by a five-year-old, it is probably
-                | good enough. It doesn't have to be on a fancy tool/app, pen and
-                | paper will do just fine; it is a rough outline for the layout of
-                | your app. Where everything will go when you finally build it,
-                | not its color or shape, just a general idea of where.
-            li
-              p Iterate
-              p
-                | Start with the foundation; you can't build a house roof first,
-                | slowly add to it, and make sure that everything is done well.
-                | Bugs can cause the whole thing to collapse; having more features
-                | is less important than having good, well-made ones. Something
-                | half done is better than something done half-ass.
-            li
-              p Review
-              p
-                | Before moving on to building the next part of your app, take a
-                | second to look at what you got. Are there any Bugs? Do they need
-                | to be fixed? Is there anything that I can do better? Is it so
-                | easy to use that even a Neanderthal can use it? Not every bug
-                | needs to be fixed right now, due to the time constraint create a
-                | reminder, and come back to it later. Focus on only fixing bugs
-                | that would regularly impact the user, i.e., error messages that
-                | don't go away, graphics that are conditional showing when their
-                | condition is false, or any app breaking bugs.
-        li
-          p How do I submit?
-          p Navigate to provided submission URL
-          // Diagram of submission form
-        li
-          p Q: How much does it cost?
-          p A: It's absolutely free!
-        li
-          p Q: Where can I see updates during the event?
-          p A: Updates will be announced in the MintBean Discord Channel
-        li
-          p Q: Who Can Hack?
+            li What is the prompt/theme?
+            li What problem do I want to solve?
+            li What already exists that I wish was better?
+            li Can I accomplish this in the given time? (Yes/No/Maybe)
+            li Can I build part of this in the given time? (MVP)
           p
-            | A: Front End Developers, Full Stack Developers, Self Learners, Job
-            | Seekers, and Anyone who wants to code!
+            | If you can take your grand idea and create a lite version of it,
+            | that is fine. The end of the hackathon doesn&apos;t mean the end of
+            | the project, we may ask you to start with a blank slate, but you
+            | can always keep going.
         li
+          p Minimum Viable Product(MVP)
           p
-            | Q: What if I’ve never been to a hackathon before?/ What Should I
-            | Know?
+            | The bare bones of your idea, nothing fancy the most basic
+            | features your app needs to have. Think of building a house; this
+            | is your foundation, no walls, doors, rooms, or windows. It is
+            | the first thing you have to do before you can do anything else,
+            | and make sure it is done well a weak foundation makes for a poor
+            | house.
+        li
+          p Wire Frame
           p
-            | A: We suggest that you know the basics/fundamentals of the language
-            | you're coding in and the basics of git and GitHub. We are here to
-            | help you expand on what you already know.
+            | If it looks like it was drawn by a five-year-old, it is probably
+            | good enough. It doesn&apos;t have to be on a fancy tool/app, pen and
+            | paper will do just fine; it is a rough outline for the layout of
+            | your app. Where everything will go when you finally build it,
+            | not its color or shape, just a general idea of where.
         li
-          p Q: Any other questions?
+          p Iterate
           p
-            | A: Reach out to a code mentor, in #questions channel on discord or
-            | code mentor and event organizers on HopIn.
-    section#question
-      a(name='Question')
-      h2 Are you Stuck? Need help... How to ask a Technical Question!
-      h3
-        | In plain non-technical english, describe the problem you have
-        | encountered.
-      p The button is the wrong color.
-      h3 In plain non-technical english, describe the expected behavior.
-      p The button is red.
-      h3 In plain non-technical english, describe the actual behavior.
-      p The button is blue.
-      h3
-        | Post any code you think might be relevant. Use fenced backticks ``` with
-        | a language specified.
-      ul(style='list-style: none;')
-        p ```javascript
-        li 1 // src/scripts/button.js
-        li 2 console.log("I am inside button.js");
-        p ```
-      ul(style='list-style: none;')
-        p ```css
-        li 1 /* src/styles/style.css */
-        li 2 * { color: red; }
-        li 3 div.button { color: blue; }
-        p ```
-      ul(style='list-style: none;')
-        p ```html
+            | Start with the foundation; you can&apos;t build a house roof first,
+            | slowly add to it, and make sure that everything is done well.
+            | Bugs can cause the whole thing to collapse; having more features
+            | is less important than having good, well-made ones. Something
+            | half done is better than something done half-ass.
         li
-          | 1
-          // src/index.html
-        li 2 <div class="button">
-        li
-          span(style='margin-right: 2rem;') 3
-          |  Button
-        li 4 </div>
-        p ```
-      h3
-        | If you see an error message, post it here (including the full error
-        | log). If you don’t, what unexpected behavior are you seeing?
-      ul(style='list-style: none;')
-        li Uncaught Error: Sample error
-        li(style='text-indent: 2rem;') at someMethod (repl:1:27)
-        li(style='text-indent: 2rem;') at someMethod (repl:20:22)
-        li(style='text-indent: 2rem;') at someMethod (repl:30:20)
-        li(style='text-indent: 2rem;') at someMethod (repl:100:7)
-      h3 What is your best guess as to the source of the problem?
-      p I don't know, but I think the CSS is off. Maybe it's in the JS.
-      h3 What things have you already tried to solve the problem?
-      p I've tried playing with the CSS and with the JS.
-    section#show-tell
-      a(name='ShowTell')
-      h2
-        | Are you looking for work? Want to increase your visibility to employers?
-        | Showcase your submissions! Didn’t submit, talk about the journey!
-      p We have some ready to go LinkedIn Templates that you can use
-      a(href='https://blog.mintbean.io/mintbean-hackathon-guide-linkedin-templates/') Show and Tell
-    section#issues
-      a(name='Issue')
-      h2
-        | Does you App have issues? Does someone elses app have issues? Let's QA!
-      div
-        h3 Creating an issue for your self
-        p(style='font-weight: bolder; font-size: 1.35rem;')
-          | ### Expected Behavior
-        p(style='font-weight: bold;') Describe the desired behavior
-        p I wanted the button to be red
-        p(style='font-weight: bolder; font-size: 1.35rem;')
-          | ### Actual Behavior
-        p(style='font-weight: bold;') Describe actual behavior
-        p The button is blue
-        p(style='font-weight: bolder; font-size: 1.35rem;')
-          | ### How to Resolve
-        p(style='font-weight: bold;') Describe How to Fix
-        p use more specific CSS selectors to make sure style is applied
-        p(style='font-weight: bold;')
-          | Come back later to fix it if you have time or after the hackathon
-      div
-        h3 Creating an issue for someone else
-        p(style='font-weight: bolder; font-size: 1.35rem;')
-          | ### Describe the User Flow
-        p(style='font-weight: bold;') How Did you interact with the site
-        p
-          | I was on my profile page and wanted to navigate to a friend page, but
-          | there was no indication of how to do that.
-        p(style='font-weight: bolder; font-size: 1.35rem;')
-          | ### Problematic Behavior
-        p(style='font-weight: bold;') Describe What Happened
-        p
-          | I eventually figured out that by clicking on her photo took me to her
-          | page, but there wasn't anything to show that her phot0 was clickable.
-        p(style='font-weight: bolder; font-size: 1.35rem;')
-          | ### Ideas for Improvement (optional Must be actionable and kind)
-        p(style='font-weight: bold;') List any ideas you have that might fix it
-        p
-          | Changing the cursor or maybe providing some sort of tooltip would be
-          | helpful.
-    section#tips
-      a(name='Tips')
-      h2 Mind Mints (Tips)
-      ul
-        // pulled from code mentors and organizers
-        li(style='font-weight: bolder; text-decoration: underline;')
-          | DEPLOY EARLY.
-        li Take time to plan.
-        li Ask questions.
-        li
-          | Spend no more than 30 min on a issue before asking the community
-    section#resources
-      h2 Misc. Resources
-      a(name='Resources')
-      ul
-        // Templates could go here
-        li
-          a(href='https://github.com/clairefro/mintbean-cli/blob/master/README.md') MintBean CLI Docs
-        li
-          a(href='https://www.linkedin.com/company/mintbean/') LinkedIn 
-        li
-          a(href='https://www.facebook.com/Mintbean-104353817855570') Facebook
-        li
-          a(href='https://twitter.com/Mintbeanio') Twitter
+          p Review
+          p
+            | Before moving on to building the next part of your app, take a
+            | second to look at what you got. Are there any Bugs? Do they need
+            | to be fixed? Is there anything that I can do better? Is it so
+            | easy to use that even a Neanderthal can use it? Not every bug
+            | needs to be fixed right now, due to the time constraint create a
+            | reminder, and come back to it later. Focus on only fixing bugs
+            | that would regularly impact the user, i.e., error messages that
+            | don&apos;t go away, graphics that are conditional showing when their
+            | condition is false, or any app breaking bugs.
+    li
+      p How do I submit?
+      p Navigate to provided submission URL
+      // Diagram of submission form
+    li
+      p Q: How much does it cost?
+      p A: It&apos;s absolutely free!
+    li
+      p Q: Where can I see updates during the event?
+      p A: Updates will be announced in the MintBean Discord Channel
+    li
+      p Q: Who Can Hack?
+      p
+        | A: Front End Developers, Full Stack Developers, Self Learners, Job
+        | Seekers, and Anyone who wants to code!
+    li
+      p
+        | Q: What if I&rsquo;ve never been to a hackathon before?/ What Should I
+        | Know?
+      p
+        | A: We suggest that you know the basics/fundamentals of the language
+        | you&apos;re coding in and the basics of git and GitHub. We are here to
+        | help you expand on what you already know.
+    li
+      p Q: Any other questions?
+      p
+        | A: Reach out to a code mentor, in #questions channel on discord or
+        | code mentor and event organizers on HopIn.
+section#question
+  a(name='Question')
+  h2 Are you Stuck? Need help... How to ask a Technical Question!
+  h3
+    | In plain non-technical english, describe the problem you have
+    | encountered.
+  p The button is the wrong color.
+  h3 In plain non-technical english, describe the expected behavior.
+  p The button is red.
+  h3 In plain non-technical english, describe the actual behavior.
+  p The button is blue.
+  h3
+    | Post any code you think might be relevant. Use fenced backticks &grave;&grave;&grave; with
+    | a language specified.
+  ul(style='list-style: none;')
+    p &grave;&grave;&grave;javascript
+    li 1 // src/scripts/button.js
+    li 2 console.log(&quot;I am inside button.js&quot;);
+    p &grave;&grave;&grave;
+  ul(style='list-style: none;')
+    p &grave;&grave;&grave;css
+    li 1 /* src/styles/style.css */
+    li 2 * { color: red; }
+    li 3 div.button { color: blue; }
+    p &grave;&grave;&grave;
+  ul(style='list-style: none;')
+    p &grave;&grave;&grave;html
+    li
+      | 1
+      // src/index.html
+    li 2 &lt;div class=&quot;button&quot;&gt;
+    li
+      span(style='margin-right: 2rem;') 3
+      |  Button
+    li 4 &lt;/div&gt;
+    p &grave;&grave;&grave;
+  h3
+    | If you see an error message, post it here (including the full error
+    | log). If you don&rsquo;t, what unexpected behavior are you seeing?
+  ul(style='list-style: none;')
+    li Uncaught Error: Sample error
+    li(style='text-indent: 2rem;') at someMethod (repl:1:27)
+    li(style='text-indent: 2rem;') at someMethod (repl:20:22)
+    li(style='text-indent: 2rem;') at someMethod (repl:30:20)
+    li(style='text-indent: 2rem;') at someMethod (repl:100:7)
+  h3 What is your best guess as to the source of the problem?
+  p I don&apos;t know, but I think the CSS is off. Maybe it&apos;s in the JS.
+  h3 What things have you already tried to solve the problem?
+  p I&apos;ve tried playing with the CSS and with the JS.
+section#show-tell
+  a(name='ShowTell')
+  h2
+    | Are you looking for work? Want to increase your visibility to employers?
+    | Showcase your submissions! Didn&rsquo;t submit, talk about the journey!
+  p We have some ready to go LinkedIn Templates that you can use
+  a(href='https://blog.mintbean.io/mintbean-hackathon-guide-linkedin-templates/') Show and Tell
+section#issues
+  a(name='Issue')
+  h2
+    | Does you App have issues? Does someone elses app have issues? Let&apos;s QA!
+  div
+    h3 Creating an issue for your self
+    p(style='font-weight: bolder; font-size: 1.35rem;')
+      | ### Expected Behavior
+    p(style='font-weight: bold;') Describe the desired behavior
+    p I wanted the button to be red
+    p(style='font-weight: bolder; font-size: 1.35rem;')
+      | ### Actual Behavior
+    p(style='font-weight: bold;') Describe actual behavior
+    p The button is blue
+    p(style='font-weight: bolder; font-size: 1.35rem;')
+      | ### How to Resolve
+    p(style='font-weight: bold;') Describe How to Fix
+    p use more specific CSS selectors to make sure style is applied
+    p(style='font-weight: bold;')
+      | Come back later to fix it if you have time or after the hackathon
+  div
+    h3 Creating an issue for someone else
+    p(style='font-weight: bolder; font-size: 1.35rem;')
+      | ### Describe the User Flow
+    p(style='font-weight: bold;') How Did you interact with the site
+    p
+      | I was on my profile page and wanted to navigate to a friend page, but
+      | there was no indication of how to do that.
+    p(style='font-weight: bolder; font-size: 1.35rem;')
+      | ### Problematic Behavior
+    p(style='font-weight: bold;') Describe What Happened
+    p
+      | I eventually figured out that by clicking on her photo took me to her
+      | page, but there wasn&apos;t anything to show that her phot0 was clickable.
+    p(style='font-weight: bolder; font-size: 1.35rem;')
+      | ### Ideas for Improvement (optional Must be actionable and kind)
+    p(style='font-weight: bold;')
+      | List any ideas you have that might fix it
+    p
+      | Changing the cursor or maybe providing some sort of tooltip would be
+      | helpful.
+section#tips
+  a(name='Tips')
+  h2 Mind Mints (Tips)
+  ul
+    // pulled from code mentors and organizers
+    li(style='font-weight: bolder; text-decoration: underline;')
+      | DEPLOY EARLY.
+    li Take time to plan.
+    li Ask questions.
+    li
+      | Spend no more than 30 min on a issue before asking the community
+section#resources
+  h2 Misc. Resources
+  a(name='Resources')
+  ul
+    // Templates could go here
+    li
+      a(href='https://github.com/clairefro/mintbean-cli/blob/master/README.md') MintBean CLI Docs
+    li
+      a(href='https://www.linkedin.com/company/mintbean/') LinkedIn 
+    li
+      a(href='https://www.facebook.com/Mintbean-104353817855570') Facebook
+    li
+      a(href='https://twitter.com/Mintbeanio') Twitter

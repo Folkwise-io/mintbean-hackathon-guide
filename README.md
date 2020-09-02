@@ -15,8 +15,8 @@ Table of Contents
 * [Mind Mints (Tips)](#Tips)
 * [Misc. Resources](#Resources)
 
-Code Of Conduct
----------------
+Code Of Conduct <a name="CodeOfConduct"></a>
+--------------------------------------------
 
 Be respectful. Harassment and abuse are never tolerated. If you are in a situation that makes you uncomfortable at a MintBean Event, if interacting with a MintBean representative or Code Mentor makes you uncomfortable, please report it to Jennifer Tang or another MintBean representative.
 
@@ -34,8 +34,8 @@ Plagiarism in coding is a bit different; copy and pasting are very common and no
 
 If the base of your project was written by someone else you must make at least 2 meaningful changes to the project. MORE THAN STYLING.
 
-First Time? Lets Get Ready...
------------------------------
+First Time? Lets Get Ready... <a name="FirstTime"></a>
+------------------------------------------------------
 
 ### Join our [Discord Channel](https://discord.com/invite/qMddjpj)
 
@@ -65,15 +65,15 @@ Make Sure You Submit! Judging begins at 11:30AM EST on Wednesday for the Monday 
 
 Don't let the struggle get you down! We have all been there. If you get stuck, "you're in luck, 'cause up your sleeves / You got a brand of magic, never fails / You've got some power in your corner now / Some heavy ammunition in your camp / You got some punch, pizazz, yahoo and how?" - Genie(Robin Williams). See, all you gotta do is ask. The community is here to back you up and help you through your snags. If you ever feel like you don't belong, just look at the photo of what a developer looks like.You are a developer, and you definitely belong here we all started at different places and learn at different paces. Try to focus on your improvement and not on others. It may take time, but you can do anything you set your mind to.
 
-CLI
----
+CLI <a name="CLI"></a>
+----------------------
 
 npm install -g mintbean-cli
 
 [CLI Docs](https://github.com/clairefro/mintbean-cli/blob/master/README.md)
 
-Scoring
--------
+Scoring <a name="Scoring"></a>
+------------------------------
 
 ### Catagories
 
@@ -88,8 +88,8 @@ Scoring
   * Constraints Followed
   * Difficulty
 
-FAQ
----
+FAQ <a name="FAQ"></a>
+----------------------
 
 * How do I plan?
 
@@ -135,8 +135,8 @@ FAQ
 
   A: Reach out to a code mentor, in #questions channel on discord or code mentor and event organizers on HopIn.
 
-Are you Stuck? Need help... How to ask a Technical Question!
-------------------------------------------------------------
+Are you Stuck? Need help... How to ask a Technical Question! <a name="Question"></a>
+------------------------------------------------------------------------------------
 
 ### In plain non-technical english, describe the problem you have encountered.
 
@@ -187,15 +187,15 @@ I don't know, but I think the CSS is off. Maybe it's in the JS.
 
 I've tried playing with the CSS and with the JS.
 
-Are you looking for work? Want to increase your visibility to employers? Showcase your submissions! Didn’t submit, talk about the journey!
--------------------------------------------------------------------------------------------------------------------------------------------
+Are you looking for work? Want to increase your visibility to employers? Showcase your submissions! Didn’t submit, talk about the journey! <a name="ShowTell"></a>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 We have some ready to go LinkedIn Templates that you can use
 
 [Show and Tell](https://blog.mintbean.io/mintbean-hackathon-guide-linkedin-templates/)
 
-Does you App have issues? Does someone elses app have issues? Let's QA!
------------------------------------------------------------------------
+Does you App have issues? Does someone elses app have issues? Let's QA! <a name="Issue"></a>
+--------------------------------------------------------------------------------------------
 
 ### Creating an issue for your self
 
@@ -239,16 +239,16 @@ List any ideas you have that might fix it
 
 Changing the cursor or maybe providing some sort of tooltip would be helpful.
 
-Mind Mints (Tips)
------------------
+Mind Mints (Tips) <a name="Tips"></a>
+-------------------------------------
 
 * DEPLOY EARLY.
 * Take time to plan.
 * Ask questions.
 * Spend no more than 30 min on a issue before asking the community
 
-Misc. Resources
----------------
+Misc. Resources <a name="Resources"></a>
+----------------------------------------
 
 * [MintBean CLI Docs](https://github.com/clairefro/mintbean-cli/blob/master/README.md)
 * [LinkedIn](https://www.linkedin.com/company/mintbean/)

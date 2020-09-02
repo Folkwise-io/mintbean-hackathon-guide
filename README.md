@@ -17,7 +17,7 @@ Table of Contents
 
 Code Of Conduct
 ---------------
-
+[code-of-conduct](#CodeOfConduct)
 Be respectful. Harassment and abuse are never tolerated. If you are in a situation that makes you uncomfortable at a MintBean Event, if interacting with a MintBean representative or Code Mentor makes you uncomfortable, please report it to Jennifer Tang or another MintBean representative.
 
 MintBean stands for inclusivity. We believe that every single person has the right to hack in a safe and welcoming environment.
